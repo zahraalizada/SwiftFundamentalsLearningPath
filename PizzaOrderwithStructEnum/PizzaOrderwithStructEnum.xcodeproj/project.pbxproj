@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0FD3072BA78611001FF056 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FD3062BA78611001FF056 /* main.swift */; };
+		1A5036362BAAFE9900DA4650 /* OrderReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5036352BAAFE9900DA4650 /* OrderReview.swift */; };
+		1A6015722BAB4D120016367D /* PizzaOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6015712BAB4D120016367D /* PizzaOrder.swift */; };
+		1A6015742BAB4D680016367D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6015732BAB4D680016367D /* UserInfo.swift */; };
+		1A6015762BAB4F640016367D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6015752BAB4F640016367D /* UserManager.swift */; };
+		1A6015782BAB53860016367D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6015772BAB53860016367D /* Menu.swift */; };
+		1AEA1D152BCDAD7D00513FEE /* PizzaTaskDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA1D142BCDAD7D00513FEE /* PizzaTaskDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A0FD3012BA78611001FF056 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1A8A90932BA9E0F50093288A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A0FD3032BA78611001FF056 /* PizzaOrderwithStructEnum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PizzaOrderwithStructEnum; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0FD3062BA78611001FF056 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1A5036352BAAFE9900DA4650 /* OrderReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderReview.swift; sourceTree = "<group>"; };
+		1A6015712BAB4D120016367D /* PizzaOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOrder.swift; sourceTree = "<group>"; };
+		1A6015732BAB4D680016367D /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1A6015752BAB4F640016367D /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		1A6015772BAB53860016367D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1A8A90952BA9E0F50093288A /* testEnum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testEnum; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEA1D142BCDAD7D00513FEE /* PizzaTaskDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTaskDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0FD3002BA78611001FF056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8A90922BA9E0F50093288A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0FD2FA2BA78611001FF056 = {
+			isa = PBXGroup;
+			children = (
+				1A0FD3052BA78611001FF056 /* PizzaOrderwithStructEnum */,
+				1A0FD3042BA78611001FF056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0FD3042BA78611001FF056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FD3032BA78611001FF056 /* PizzaOrderwithStructEnum */,
+				1A8A90952BA9E0F50093288A /* testEnum */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0FD3052BA78611001FF056 /* PizzaOrderwithStructEnum */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FD3062BA78611001FF056 /* main.swift */,
+				1A6015752BAB4F640016367D /* UserManager.swift */,
+				1A6015732BAB4D680016367D /* UserInfo.swift */,
+				1A6015712BAB4D120016367D /* PizzaOrder.swift */,
+				1A5036352BAAFE9900DA4650 /* OrderReview.swift */,
+				1A6015772BAB53860016367D /* Menu.swift */,
+				1AEA1D142BCDAD7D00513FEE /* PizzaTaskDetails.swift */,
+			);
+			path = PizzaOrderwithStructEnum;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0FD3022BA78611001FF056 /* PizzaOrderwithStructEnum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0FD30A2BA78611001FF056 /* Build configuration list for PBXNativeTarget "PizzaOrderwithStructEnum" */;
+			buildPhases = (
+				1A0FD2FF2BA78611001FF056 /* Sources */,
+				1A0FD3002BA78611001FF056 /* Frameworks */,
+				1A0FD3012BA78611001FF056 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaOrderwithStructEnum;
+			productName = PizzaOrderwithStructEnum;
+			productReference = 1A0FD3032BA78611001FF056 /* PizzaOrderwithStructEnum */;
+			productType = "com.apple.product-type.tool";
+		};
+		1A8A90942BA9E0F50093288A /* testEnum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8A909B2BA9E0F50093288A /* Build configuration list for PBXNativeTarget "testEnum" */;
+			buildPhases = (
+				1A8A90912BA9E0F50093288A /* Sources */,
+				1A8A90922BA9E0F50093288A /* Frameworks */,
+				1A8A90932BA9E0F50093288A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testEnum;
+			productName = testEnum;
+			productReference = 1A8A90952BA9E0F50093288A /* testEnum */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0FD2FB2BA78611001FF056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1A0FD3022BA78611001FF056 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					1A8A90942BA9E0F50093288A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A0FD2FE2BA78611001FF056 /* Build configuration list for PBXProject "PizzaOrderwithStructEnum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0FD2FA2BA78611001FF056;
+			productRefGroup = 1A0FD3042BA78611001FF056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0FD3022BA78611001FF056 /* PizzaOrderwithStructEnum */,
+				1A8A90942BA9E0F50093288A /* testEnum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0FD2FF2BA78611001FF056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6015782BAB53860016367D /* Menu.swift in Sources */,
+				1A6015742BAB4D680016367D /* UserInfo.swift in Sources */,
+				1A5036362BAAFE9900DA4650 /* OrderReview.swift in Sources */,
+				1AEA1D152BCDAD7D00513FEE /* PizzaTaskDetails.swift in Sources */,
+				1A6015722BAB4D120016367D /* PizzaOrder.swift in Sources */,
+				1A6015762BAB4F640016367D /* UserManager.swift in Sources */,
+				1A0FD3072BA78611001FF056 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8A90912BA9E0F50093288A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A0FD3082BA78611001FF056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A0FD3092BA78611001FF056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1A0FD30B2BA78611001FF056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1A0FD30C2BA78611001FF056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1A8A90992BA9E0F50093288A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1A8A909A2BA9E0F50093288A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0FD2FE2BA78611001FF056 /* Build configuration list for PBXProject "PizzaOrderwithStructEnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0FD3082BA78611001FF056 /* Debug */,
+				1A0FD3092BA78611001FF056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0FD30A2BA78611001FF056 /* Build configuration list for PBXNativeTarget "PizzaOrderwithStructEnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0FD30B2BA78611001FF056 /* Debug */,
+				1A0FD30C2BA78611001FF056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8A909B2BA9E0F50093288A /* Build configuration list for PBXNativeTarget "testEnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8A90992BA9E0F50093288A /* Debug */,
+				1A8A909A2BA9E0F50093288A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0FD2FB2BA78611001FF056 /* Project object */;
+}

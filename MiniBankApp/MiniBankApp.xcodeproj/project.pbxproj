@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5D5BC72BAEC60200C9EF0A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D5BC62BAEC60200C9EF0A /* main.swift */; };
+		1AB1C3062BB02B31006D0FD3 /* MiniBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C3052BB02B31006D0FD3 /* MiniBankApp.swift */; };
+		1AB1C3082BB02F08006D0FD3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C3072BB02F08006D0FD3 /* UserInfo.swift */; };
+		1AB1C30A2BB02F22006D0FD3 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C3092BB02F22006D0FD3 /* UserManager.swift */; };
+		1AB1C30C2BB02FB2006D0FD3 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C30B2BB02FB2006D0FD3 /* MenuManager.swift */; };
+		1AB1C30E2BB02FE8006D0FD3 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C30D2BB02FE8006D0FD3 /* CardInfo.swift */; };
+		1AB1C3102BB02FFE006D0FD3 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C30F2BB02FFE006D0FD3 /* CardManager.swift */; };
+		1AB1C3122BB03019006D0FD3 /* TransferInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C3112BB03019006D0FD3 /* TransferInfo.swift */; };
+		1AB1C3142BB03031006D0FD3 /* TransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C3132BB03031006D0FD3 /* TransferManager.swift */; };
+		1AB1C3162BB030DA006D0FD3 /* MenuTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C3152BB030DA006D0FD3 /* MenuTypeEnum.swift */; };
+		1AB1C3182BB030ED006D0FD3 /* CardAmountTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1C3172BB030ED006D0FD3 /* CardAmountTypeEnum.swift */; };
+		1AEA1D132BCDAB6F00513FEE /* TaskDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA1D122BCDAB6F00513FEE /* TaskDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A5D5BC12BAEC60200C9EF0A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A5D5BC32BAEC60200C9EF0A /* MiniBankApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MiniBankApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5D5BC62BAEC60200C9EF0A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1AB1C3052BB02B31006D0FD3 /* MiniBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBankApp.swift; sourceTree = "<group>"; };
+		1AB1C3072BB02F08006D0FD3 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1AB1C3092BB02F22006D0FD3 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		1AB1C30B2BB02FB2006D0FD3 /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		1AB1C30D2BB02FE8006D0FD3 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		1AB1C30F2BB02FFE006D0FD3 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		1AB1C3112BB03019006D0FD3 /* TransferInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferInfo.swift; sourceTree = "<group>"; };
+		1AB1C3132BB03031006D0FD3 /* TransferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferManager.swift; sourceTree = "<group>"; };
+		1AB1C3152BB030DA006D0FD3 /* MenuTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTypeEnum.swift; sourceTree = "<group>"; };
+		1AB1C3172BB030ED006D0FD3 /* CardAmountTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAmountTypeEnum.swift; sourceTree = "<group>"; };
+		1AEA1D122BCDAB6F00513FEE /* TaskDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A5D5BC02BAEC60200C9EF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5D5BBA2BAEC60200C9EF0A = {
+			isa = PBXGroup;
+			children = (
+				1A5D5BC52BAEC60200C9EF0A /* MiniBankApp */,
+				1A5D5BC42BAEC60200C9EF0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A5D5BC42BAEC60200C9EF0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D5BC32BAEC60200C9EF0A /* MiniBankApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5D5BC52BAEC60200C9EF0A /* MiniBankApp */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1C3152BB030DA006D0FD3 /* MenuTypeEnum.swift */,
+				1AB1C3172BB030ED006D0FD3 /* CardAmountTypeEnum.swift */,
+				1A5D5BC62BAEC60200C9EF0A /* main.swift */,
+				1AB1C3132BB03031006D0FD3 /* TransferManager.swift */,
+				1AB1C3112BB03019006D0FD3 /* TransferInfo.swift */,
+				1AB1C30F2BB02FFE006D0FD3 /* CardManager.swift */,
+				1AB1C30D2BB02FE8006D0FD3 /* CardInfo.swift */,
+				1AB1C30B2BB02FB2006D0FD3 /* MenuManager.swift */,
+				1AB1C3092BB02F22006D0FD3 /* UserManager.swift */,
+				1AB1C3052BB02B31006D0FD3 /* MiniBankApp.swift */,
+				1AB1C3072BB02F08006D0FD3 /* UserInfo.swift */,
+				1AEA1D122BCDAB6F00513FEE /* TaskDetails.swift */,
+			);
+			path = MiniBankApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A5D5BC22BAEC60200C9EF0A /* MiniBankApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5D5BCA2BAEC60200C9EF0A /* Build configuration list for PBXNativeTarget "MiniBankApp" */;
+			buildPhases = (
+				1A5D5BBF2BAEC60200C9EF0A /* Sources */,
+				1A5D5BC02BAEC60200C9EF0A /* Frameworks */,
+				1A5D5BC12BAEC60200C9EF0A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniBankApp;
+			productName = MiniBankApp;
+			productReference = 1A5D5BC32BAEC60200C9EF0A /* MiniBankApp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A5D5BBB2BAEC60200C9EF0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1A5D5BC22BAEC60200C9EF0A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A5D5BBE2BAEC60200C9EF0A /* Build configuration list for PBXProject "MiniBankApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5D5BBA2BAEC60200C9EF0A;
+			productRefGroup = 1A5D5BC42BAEC60200C9EF0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5D5BC22BAEC60200C9EF0A /* MiniBankApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5D5BBF2BAEC60200C9EF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB1C3162BB030DA006D0FD3 /* MenuTypeEnum.swift in Sources */,
+				1AB1C3182BB030ED006D0FD3 /* CardAmountTypeEnum.swift in Sources */,
+				1AB1C30C2BB02FB2006D0FD3 /* MenuManager.swift in Sources */,
+				1AB1C30E2BB02FE8006D0FD3 /* CardInfo.swift in Sources */,
+				1A5D5BC72BAEC60200C9EF0A /* main.swift in Sources */,
+				1AEA1D132BCDAB6F00513FEE /* TaskDetails.swift in Sources */,
+				1AB1C3102BB02FFE006D0FD3 /* CardManager.swift in Sources */,
+				1AB1C3082BB02F08006D0FD3 /* UserInfo.swift in Sources */,
+				1AB1C3142BB03031006D0FD3 /* TransferManager.swift in Sources */,
+				1AB1C30A2BB02F22006D0FD3 /* UserManager.swift in Sources */,
+				1AB1C3122BB03019006D0FD3 /* TransferInfo.swift in Sources */,
+				1AB1C3062BB02B31006D0FD3 /* MiniBankApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A5D5BC82BAEC60200C9EF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A5D5BC92BAEC60200C9EF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1A5D5BCB2BAEC60200C9EF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1A5D5BCC2BAEC60200C9EF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5D5BBE2BAEC60200C9EF0A /* Build configuration list for PBXProject "MiniBankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5D5BC82BAEC60200C9EF0A /* Debug */,
+				1A5D5BC92BAEC60200C9EF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5D5BCA2BAEC60200C9EF0A /* Build configuration list for PBXNativeTarget "MiniBankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5D5BCB2BAEC60200C9EF0A /* Debug */,
+				1A5D5BCC2BAEC60200C9EF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5D5BBB2BAEC60200C9EF0A /* Project object */;
+}
